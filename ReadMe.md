@@ -70,5 +70,4 @@ If a shell script (`start_app.sh`) is available, run it using:
 
 ## Notes
 - The backend stores users in a local `users.json` file. This file is cleared before and after tests for a clean state.
-- Passwords are hashed before storage.
-- The app is for demonstration and learning purposes; for production, use a database and add more security features.
+- Passwords are hashed before storing.
