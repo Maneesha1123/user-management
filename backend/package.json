@@ -1,0 +1,28 @@
+{
+  "name": "node-backend",
+  "version": "1.0.0",
+  "description": "Node.js backend for a simple login application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "cucumber-js --require step_definitions/**/*.js --require-module @babel/register"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "selenium-webdriver": "^4.34.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/register": "^7.24.6",
+    "@cucumber/cucumber": "^10.8.0",
+    "chai": "^5.1.1",
+    "supertest": "^7.0.0"
+  }
+}
