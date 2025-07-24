@@ -32,6 +32,21 @@ This project is a full-stack user management application with a React frontend a
    - Frontend: [http://localhost:3000](http://localhost:3000)
    - Backend API: [http://localhost:3000/api](http://localhost:3000/api)
 
+## Instructions for Running the Application
+
+### For Windows Users
+Run the `start_app.ps1` script using PowerShell:
+```powershell
+.\start_app.ps1
+```
+
+### For macOS Users
+If a shell script (`start_app.sh`) is available, run it using:
+```bash
+./start_app.sh
+```
+
+
 ## Test Plan & Strategy
 - **API Tests:** Located in `features/api-tests.js`, covering registration, login, password change, and deletion (success and error cases).
 - **UI Tests:** Located in `features/ui-tests.js`, using Selenium WebDriver to automate browser actions for all user flows.
