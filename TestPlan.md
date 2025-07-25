@@ -40,17 +40,16 @@ Negative testing involves using invalid inputs and scenarios to verify that the 
 
 ## 4. Test Environment
 
-The tests will be conducted in the following environment:
+The tests were executed in the following environment:
 
-*   Operating System: Windows 10, Linux (Ubuntu)
-*   Browser: Chrome, Firefox, Edge
-*   Database: MySQL, PostgreSQL
-*   Programming Language: [Specify the language used, e.g., Java, Python, JavaScript]
-*   Framework: [Specify the framework used, e.g., Spring, Django, React]
+*   Operating System: Windows 10/11, MacOs
+*   Browser: Chrome
+*   Programming Language: Node.js
+*   Framework: React and selenium
 
-For API endpoint testing, we will use tools like **Postman** and languages like **JavaScript** (with frameworks like **Supertest** or **Chai**).
+For API endpoint testing, we will use tools like **Postman**.
 
-For UI automation testing, we will use tools like **Selenium** or **Cypress** and languages like **JavaScript** or **Python**.
+For UI automation testing, we will use tools like **Selenium**.
 
 ## 5. Test Cases (Examples)
 
